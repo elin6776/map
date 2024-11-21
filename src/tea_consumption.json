@@ -1,0 +1,912 @@
+[
+    {
+      "date": "2024-01-01",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-02",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-03",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-04",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-05",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-06",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-07",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-08",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-09",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 3,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-10",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-11",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-12",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-13",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-14",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 1
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-15",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-16",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-17",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-18",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-19",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-20",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-21",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 1,
+        "White Tea": 1
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-22",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-23",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-01-24",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-25",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 1,
+        "White Tea": 1
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-26",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-27",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-28",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-01-29",
+      "teas": {
+        "Black Tea": 4,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-01-30",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-01-31",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-01",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-02",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-03",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 1
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-04",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-05",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-06",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-07",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-08",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 2
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-02-09",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-10",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-11",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-02-12",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 2
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-13",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 2
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-02-14",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-15",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-16",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-17",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-18",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-19",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-20",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-21",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 2
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-22",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 2,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-23",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-24",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-25",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-02-26",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-27",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-02-28",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-02-29",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-01",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 0
+    },
+    {
+      "date": "2024-03-02",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-03",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-04",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 0
+    },
+    {
+      "date": "2024-03-05",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-06",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-07",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-08",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 3,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-03-09",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-10",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-11",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-12",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 2,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-13",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-14",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-15",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 2,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-03-16",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-17",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-18",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-19",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-20",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-21",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 2,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-22",
+      "teas": {
+        "Black Tea": 1,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-23",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-24",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 3
+    },
+    {
+      "date": "2024-03-25",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 1
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-26",
+      "teas": {
+        "Black Tea": 3,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-27",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 3,
+        "Earl Grey Tea": 0,
+        "White Tea": 1
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-28",
+      "teas": {
+        "Black Tea": 2,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 0,
+        "White Tea": 2
+      },
+      "total": 4
+    },
+    {
+      "date": "2024-03-29",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 0,
+        "White Tea": 0
+      },
+      "total": 1
+    },
+    {
+      "date": "2024-03-30",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 1,
+        "Earl Grey Tea": 1,
+        "White Tea": 0
+      },
+      "total": 2
+    },
+    {
+      "date": "2024-03-31",
+      "teas": {
+        "Black Tea": 0,
+        "Oolong Tea": 0,
+        "Earl Grey Tea": 2,
+        "White Tea": 0
+      },
+      "total": 2
+    }
+  ]

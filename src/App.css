@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;  
+}
+.month-grid {
+display: flex;
+gap: 20px;
+display: flex;
+justify-content: center;
+}
+
+.month-container {
+text-align: center;
+}
+
+.tea-box {
+width: 50px;
+height: 25px;
+background-color: #ccc;
+border: none;
+}
+
+@media (max-width: 900px) {
+
+.month-grid {
+  align-items: center;
+  flex-direction: column;
+}
+
+}
