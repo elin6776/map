@@ -1,32 +1,79 @@
 body {
-  background-color: rgb(229, 249, 245);
+  background-color: white;
+  overflow-x:hidden;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 h1 {
   text-align: center;  
+  padding: 20px;
 }
+
+h2 {
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
 .month-grid {
-display: flex;
-gap: 20px;
-display: flex;
-justify-content: center;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .month-container {
-text-align: center;
+  text-align: center;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: rgb(245, 253, 251);
 }
 
-.tea-box {
-width: 50px;
-height: 25px;
-background-color: #ccc;
-border: none;
+.month-container:hover {
+  background-color: rgb(232, 255, 242);
 }
+.tea-box {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.tea-box:hover {
+  transform: scale(1.2);
+  border: 1px solid black;
+  z-index: 5;
+}
+
+.tea-box::after {
+  content: attr(tooltip);
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: pre-wrap;
+  width: 150px;
+  transition: opacity 0.1s ease-in-out; 
+}
+
+.tea-box:hover::after {
+  opacity: 1;
+}
+
+
 
 @media (max-width: 900px) {
-
-.month-grid {
-  align-items: center;
-  flex-direction: column;
-}
-
+  .month-grid {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
 }

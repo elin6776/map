@@ -10,22 +10,26 @@ const Heatmap = () => {
       "rgba(255, 255, 255, 1)",
       "rgba(204, 255, 204, 1)",
       "rgba(102, 204, 102, 1)",
-      "rgba(0, 158, 0, 1)",    
-      "rgba(0, 100, 0, 1)"   
+      "rgba(0, 158, 0, 1)",
+      "rgba(0, 100, 0, 1)"
     ];
     return colors[Math.min(value, colors.length - 1)];
   };
+
   useEffect(() => {
-    const allMonths = ["January", "February", "March"];
-  
+    const allMonths = [
+      "January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+
     const groupedData = teaData.reduce((acc, entry) => {
       const parsedDate = new Date(entry.date);
       if (isNaN(parsedDate)) {
         console.warn("Invalid date:", entry.date);
-        return acc; 
+        return acc;
       }
       const month = parsedDate.toLocaleString("default", { month: "long", timeZone: "UTC" });
-      if (!allMonths.includes(month)) return acc; 
+      if (!allMonths.includes(month)) return acc;
       if (!acc[month]) acc[month] = [];
       acc[month].push({
         date: entry.date,
@@ -34,12 +38,12 @@ const Heatmap = () => {
       });
       return acc;
     }, {});
-  
+
     const completeData = allMonths.reduce((acc, month) => {
       acc[month] = groupedData[month] || [];
       return acc;
     }, {});
-  
+
     console.log('Grouped Data:', groupedData);
     console.log('Complete Data:', completeData);
     setMonthlyData(completeData);
@@ -48,7 +52,7 @@ const Heatmap = () => {
   return (
     <div className="heatmap-container">
       <div>
-        <h1>Tea Consumption Heatmap</h1>
+        <h1>Tea Consumption Heatmap (2023)</h1>
         <div className="month-grid">
           {Object.entries(monthlyData).map(([month, entries]) => (
             <div key={month} className="month-container">
@@ -60,9 +64,10 @@ const Heatmap = () => {
                       key={rowIndex}
                       className="tea-box"
                       style={{ backgroundColor: getColorForValue(row.total) }}
-                      title={`Date: ${row.date}\n${Object.entries(row.teas)
+                      tooltip={`Date: ${row.date}\n${Object.entries(row.teas)
                         .map(([teaName, teaValue]) => `${teaName}: ${teaValue}`)
-                        .join("\n")}`}
+                        .join('\n')}`}
+                      
                     ></div>
                   ))}
                 </div>
