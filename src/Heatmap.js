@@ -15,11 +15,17 @@ const Heatmap = () => {
     ];
     return colors[Math.min(value, colors.length - 1)];
   };
-
   useEffect(() => {
     const allMonths = ["January", "February", "March"];
+  
     const groupedData = teaData.reduce((acc, entry) => {
-      const month = new Date(entry.date).toLocaleString("default", { month: "long" });
+      const parsedDate = new Date(entry.date);
+      if (isNaN(parsedDate)) {
+        console.warn("Invalid date:", entry.date);
+        return acc; 
+      }
+      const month = parsedDate.toLocaleString("default", { month: "long", timeZone: "UTC" });
+      if (!allMonths.includes(month)) return acc; 
       if (!acc[month]) acc[month] = [];
       acc[month].push({
         date: entry.date,
@@ -28,15 +34,17 @@ const Heatmap = () => {
       });
       return acc;
     }, {});
-
+  
     const completeData = allMonths.reduce((acc, month) => {
-      acc[month] = groupedData[month] || []; 
+      acc[month] = groupedData[month] || [];
       return acc;
     }, {});
-
+  
+    console.log('Grouped Data:', groupedData);
+    console.log('Complete Data:', completeData);
     setMonthlyData(completeData);
   }, []);
-
+  
   return (
     <div className="heatmap-container">
       <div>
