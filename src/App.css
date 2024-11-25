@@ -6,6 +6,7 @@ body {
   justify-content: center;
   font-family: 'Courier New', Courier, monospace;
 }
+
 h1 {
   text-align: center;  
   padding: 20px;
@@ -19,13 +20,22 @@ h2 {
 .month-grid {
   gap: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 30px);
+  gap: 5px;
+  margin: 0 auto;
+  width: max-content;
+}
+
 
 .month-container {
   text-align: center;
   border: none;
-  padding: 20px 40px;
+  padding: 10px 20px;
   border-radius: 10px;
   background-color: rgb(245, 253, 251);
 }
@@ -35,7 +45,7 @@ h2 {
 }
 .tea-box {
   position: relative;
-  width: 50px;
+  width: 25px;
   height: 25px;
   background-color: #ccc;
   border: none;
@@ -67,13 +77,16 @@ h2 {
   opacity: 1;
 }
 
-
+@media (max-width: 1400px) {
+  .month-grid {
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+}
 
 @media (max-width: 900px) {
   .month-grid {
     grid-template-columns: repeat(1, 1fr);
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
   }
 }
+

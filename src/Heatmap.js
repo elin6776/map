@@ -4,15 +4,17 @@ import './App.css';
 
 const Heatmap = () => {
   const [monthlyData, setMonthlyData] = useState({});
+  const [hoveredTotal, setHoveredTotal] = useState(null);
 
   const getColorForValue = (value) => {
     const colors = [
-      "rgba(255, 255, 255, 1)",
-      "rgba(204, 255, 204, 1)",
-      "rgba(102, 204, 102, 1)",
-      "rgba(0, 158, 0, 1)",
-      "rgba(0, 100, 0, 1)"
+      "rgba(255, 255, 255, 1)", 
+      "rgba(153, 255, 153, 1)",
+      "rgba(102, 204, 102, 1)", 
+      "rgba(0, 158, 0, 1)",    
+      "rgba(0, 100, 0, 1)"     
     ];
+    
     return colors[Math.min(value, colors.length - 1)];
   };
 
@@ -44,11 +46,9 @@ const Heatmap = () => {
       return acc;
     }, {});
 
-    console.log('Grouped Data:', groupedData);
-    console.log('Complete Data:', completeData);
     setMonthlyData(completeData);
   }, []);
-  
+
   return (
     <div className="heatmap-container">
       <div>
@@ -58,16 +58,20 @@ const Heatmap = () => {
             <div key={month} className="month-container">
               <h2>{month}</h2>
               {entries.length > 0 ? (
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(5, 50px)", gap: "5px" }}>
+                <div class="grid">
                   {entries.map((row, rowIndex) => (
                     <div
                       key={rowIndex}
                       className="tea-box"
-                      style={{ backgroundColor: getColorForValue(row.total) }}
+                      style={{
+                        backgroundColor: getColorForValue(row.total),
+                        opacity: hoveredTotal === null || hoveredTotal === row.total ? 1 : 0.3,
+                      }}
+                      onMouseEnter={() => setHoveredTotal(row.total)}
+                      onMouseLeave={() => setHoveredTotal(null)} 
                       tooltip={`Date: ${row.date}\n${Object.entries(row.teas)
                         .map(([teaName, teaValue]) => `${teaName}: ${teaValue}`)
                         .join('\n')}`}
-                      
                     ></div>
                   ))}
                 </div>
